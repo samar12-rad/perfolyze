@@ -210,16 +210,6 @@ perfolyze/
 * No props or state captured
 * No PII by default
 * Session-level sampling
-* Explicit tradeoffs documented
-
----
-
-## Success Criteria
-
-* Works in localhost and production
-* Used by at least one real or realistic React app
-* Identifies at least one real performance issue
-* Documentation clearly explains design decisions and tradeoffs
 
 ---
 
