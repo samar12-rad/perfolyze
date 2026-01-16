@@ -223,12 +223,6 @@ perfolyze/
 
 ---
 
-## Interview Positioning
-
-> I built a React observability tool that instruments production apps to surface component-level performance regressions using real user data. The SDK uses the React Profiler with session-level sampling, while the backend aggregates insights per release to highlight regressions. The system was tested against a real React app and informed optimization decisions.
-
----
-
 ## Status
 
 Perfolyze is under active development and intentionally scoped as a **production-grade MVP**.
