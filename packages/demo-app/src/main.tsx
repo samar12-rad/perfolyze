@@ -3,7 +3,7 @@ import App from "./App";
 import { PerfProvider } from "@perfolyze/sdk";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <PerfProvider>
+  <PerfProvider config={{ samplingRate: 0.5 }}>
     <App />
   </PerfProvider>
 );
