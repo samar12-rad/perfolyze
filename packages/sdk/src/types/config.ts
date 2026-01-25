@@ -7,4 +7,5 @@ interface PerfProviderConfig {
 interface SessionContextType {
   sessionId: string;
   isSampled: boolean;
+  isCleanedUp: boolean;
 }
