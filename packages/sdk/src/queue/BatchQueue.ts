@@ -78,6 +78,8 @@ export class BatchQueue {
         flushReason: reason,
       };
 
+      console.log("[BatchQueue] Flushing batch:", batch);
+
       // Hand to transport (which owns auth/headers/retry logic)
       await this.transport.send(batch);
 
