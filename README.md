@@ -46,7 +46,7 @@ Perfolyze focuses on a simpler and more practical question:
 ```
 User Browser
   → Perfolyze SDK (React Profiler + batching)
-    → Ingestion API (Go)
+    → Ingestion API (Express)
       → Aggregation logic
         → Dashboard (Next.js)
 ```
@@ -79,7 +79,7 @@ They do not replace debugging.
 
 ### Backend
 
-* Single Go HTTP service
+* Single Express HTTP service
 * Ingests aggregated telemetry
 * Stores per-project, per-release, per-component metrics
 * Computes performance deltas across releases
