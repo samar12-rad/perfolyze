@@ -169,7 +169,7 @@ Hierarchy:
 
 ### Backend
 
-* Go
+* Express
 * PostgreSQL
 * JSON-based ingestion API
 
@@ -194,7 +194,7 @@ Hierarchy:
 perfolyze/
 ├─ packages/
 │  ├─ sdk/          # React SDK
-│  ├─ backend/      # Go ingestion service
+│  ├─ backend/      # Express ingestion service
 │  ├─ dashboard/    # Next.js dashboard
 │  └─ demo-app/     # Real React app for testing
 ├─ shared/
